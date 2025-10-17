@@ -271,7 +271,7 @@ print("The codes and tariffs have been read from 'alg_codes_and_tariffs.txt':")
 ############
 ############ END OF SECTOR 5 (IGNORE THIS COMMENT)
 
-my_user_name = "zzjw57"
+my_user_name = "tsp_algs"
 
 ############ START OF SECTOR 6 (IGNORE THIS COMMENT)
 ############
@@ -719,3 +719,4 @@ f.close()
 print("I have successfully written your tour to the tour file:\n   " + output_file_name + ".")
 
 ############ END OF SECTOR 10 (IGNORE THIS COMMENT)
+
