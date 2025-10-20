@@ -44,13 +44,19 @@ Using the provided skeleton framework, the project develops both **basic** and *
 ## Repository Structure
 
 ```
-├── AlgAbasic.py           # Basic A* Search
-├── AlgAenhanced.py        # Enhanced A* Search 
-├── AlgBbasic.py           # Basic Ant Colony Optimization
-├── AlgBenhanced.py        # Enhanced Ant Colony Optimization
-├── AISearchProforma.pdf   # Description of algorithms and enhancements
-├── skeleton.py            # Provided base code (framework)
-└── README.md              # Project overview
+├── city-files/                # Contains 10 city datasets (12–535 cities)
+│   ├── AISearchfile012.txt
+│   ├── ...
+│   └── AISearchfile535.txt
+│ 
+├── tsp_algs/
+│   ├── AlgAbasic.py           # Basic A* Search
+│   ├── AlgAenhanced.py        # Enhanced A* Search 
+│   ├── AlgBbasic.py           # Basic Ant Colony Optimization
+│   └── AlgBenhanced.py        # Enhanced ACO Ant Colony Optimization
+│ 
+├── alg_codes_and_tariffs.txt  # Algorithm code references
+├── skeleton.py                # Provided base code (framework)
+└── validate_before_handin.py  # Algorithm validation code
+
 ```
-
-
